@@ -89,7 +89,7 @@ class Game
       puts '==========================='
       puts "     WINNER Player 2"
       puts '==========================='
-    else
+    elsif (p2.life == 0)
       puts '==========================='
       puts "     WINNER Player 1"
       puts '==========================='

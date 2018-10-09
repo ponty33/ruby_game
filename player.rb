@@ -7,4 +7,12 @@ class Player
     @is_alive = true
   end
 
+  def name
+    @name
+  end
+
+  def minus
+    @life -= 1
+  end
+
 end
